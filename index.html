@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Buurtsuper LEO</title>
+    <script>
+      function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+</head>
+  <body>
+    <header>
+      <div class="topnav">
+            <h1 id="titel">Buurtsuper Leo v.d Drift</h1>
+  <div id="myLinks">
+    <a href="#news">Bestellen</a>
+    <a href="#contact">Kantoren en bedrijven</a>
+    <a href="#about">Over mij</a>
+  </div>
+  <div class="ham">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+</header>
+
+<div class="container">
+  <div class="nested">
+    <div class="vers">vers brood</div>
+    <div class="vers">verse groenten</div>
+    <div class="vers">vers vlees</div>
+  </div>
+  <div class="image">
+      <img src="image/groente-375.jpg"
+        srcset="
+                image/groente-683.jpg 740w,
+                image/groente-800.jpg 1024w,
+                image/groente-1000.jpg 1280w"
+        sizes="(min-width:740px) 683px,
+                (min-width:1024px) 800px,
+                (min-width:1280px) 1000px, 100vw"
+      alt="Groenten" id="groenten">
+  </div>
+
+  <div class="beschrijving">
+  Bij ons bent u aan het juiste adres als het gaat om verse producten.
+  <div>
+  Heeft u als bedrijf of kantoor een lunch nodig bestel bij ons makkelijk online!
+  </div>
+  <div>
+  Bezorging wordt uiteraard geregeld door ons in een straal van 5 km.
+  </div>
+  <div>
+  Namens ons alvast eet smakelijk.
+  </div>
+  </div>
+
+  <div class="container1">
+      <div class="vak">
+  <div class="top">
+  <p>Contact</p>
+    </div>
+    <div class="contacttext">
+      <p>Leo van der Drift
+        <br>
+        Linnaeusstraat 175
+        <br>
+        info@buurtsuperleovddrift.nl
+        <br>
+        Telefoon: 070-4140891</p>
+    </div>
+    <div class="kaart">
+      <img src="kaart-small.jpg"
+          srcset="image/kaart-medium.jpg, 740w,
+                  image/kaart-large.jpg, 1024w,
+                  image/kaart-xlarge.jpg, 1280w"
+          sizes="(min-width:740px) 300px,
+                (min-width:1024px) 335px,
+                (min-width:1280px) 440px, 100vw"
+                alt="kaart" class="contactkaart">
+    </div>
+  </div>
+  <div class="vak">
+    <div class="top">
+    <p>Over ons</p>
+    </div>
+    <div class="text">
+      <p>
+        Wij zijn een buurtsupermarkt die alles in huis heeft wat u wenst en dat op zo`n 125m2.
+        Niets is ons te gek, wij staan graag voor u klaar voor uw dagelijkse boodschappen.
+        </p>
+      </div>
+      <div>
+      <img src="image/leo-small.png"
+           srcset="image/leo-medium.png, 740w,
+                   image/leo-large.png, 1024w,
+                   image/leo-xlarge.png, 1280w"
+          size="(min-width:740px) 300px,
+                (min-width:1024px) 335px,
+                (min-width:1280px) 440px, 100vw"
+      alt="Leo" class="Leo">
+      </div>
+    </div>
+    </div>
+
+    <div class="logos">
+    <img src="image/nix.png" alt="NIX18" id="nix">
+    </div>
+  </div>
+
+    <footer>
+    <div class="footer">
+      <p>Onze Openingstijden zijn:</p>
+      <p>
+        Maandag t/m vrijdag van: 7.30 tot 19.00 uur
+        </p>
+      <p>
+        Zaterdag van: 7.30 tot 17.00 uur
+        </p>
+      <p>
+        Zondag van: 10.00 tot 17.00 uur
+      </p>
+      <i class="fa fa-twitter-square fa-lg" aria-hidden="true" id="fb"></i>
+      <i class="fa fa-facebook-square fa-lg" aria-hidden="true" id="twit"></i>
+  </div>
+
+</div>
+  </footer>
+  </body>
+</html>
